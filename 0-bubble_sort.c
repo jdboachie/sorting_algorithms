@@ -2,11 +2,12 @@
 
 /**
  * swap - swaps two integers
- * 
+ *
  * @a: first integer
  * @b: second integer
 */
-void swap(int *a, int *b) {
+void swap(int *a, int *b)
+{
 	int temp = *a;
 	*a = *b;
 	*b = temp;
@@ -14,8 +15,8 @@ void swap(int *a, int *b) {
 
 /**
  * bubble_sort - sorts an array of integers in ascending order using the
- * 				Bubble sort algorithm
- * 
+ *				Bubble sort algorithm
+ *
  * @array: The array to be sorted
  * @size: The size of the array
 */
@@ -58,5 +59,5 @@ void bubble_sort(int *array, size_t size)
 				}
 			}
 		}
-	}	
+	}
 }
