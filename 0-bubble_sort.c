@@ -22,24 +22,6 @@ void swap(int *a, int *b)
 */
 void bubble_sort(int *array, size_t size)
 {
-	/*
-	PSEUDOCODE
-	==========
-
-	procedure bubble_sort(array)
-		n = length(array)
-		repeat
-			swapped = false
-			for i = 1 to n - 1
-				if array[i - 1] > array[i]
-					swap(array[i - 1], array[i])
-					swapped = true
-				end if
-			end for
-		until not swapped
-	end procedure
-	*/
-
 	bool swapped = false;
 	size_t i, j;
 
